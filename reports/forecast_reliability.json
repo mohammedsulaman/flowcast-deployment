@@ -1,0 +1,38 @@
+{
+  "traffic_volume": {
+    "regular_history": {
+      "rows": 21760,
+      "MAE": 41.3735,
+      "RMSE": 60.7209
+    },
+    "irregular_history": {
+      "rows": 3714,
+      "MAE": 43.4998,
+      "RMSE": 64.8129
+    },
+    "all_test_rows": {
+      "rows": 25474,
+      "MAE": 41.6835,
+      "RMSE": 61.3345
+    },
+    "irregular_history_percent": 14.58
+  },
+  "travel_time": {
+    "regular_history": {
+      "rows": 22357,
+      "MAE": 0.4297,
+      "RMSE": 1.0745
+    },
+    "irregular_history": {
+      "rows": 3819,
+      "MAE": 0.4282,
+      "RMSE": 1.0809
+    },
+    "all_test_rows": {
+      "rows": 26176,
+      "MAE": 0.4295,
+      "RMSE": 1.0754
+    },
+    "irregular_history_percent": 14.59
+  }
+}

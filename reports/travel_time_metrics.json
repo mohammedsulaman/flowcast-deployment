@@ -1,0 +1,30 @@
+{
+  "validation": {
+    "random_forest": {
+      "MAE": 0.421,
+      "RMSE": 1.048,
+      "R2": 0.8007,
+      "Rows": 26203
+    },
+    "persistence": {
+      "MAE": 0.649,
+      "RMSE": 1.627,
+      "R2": 0.5197,
+      "Rows": 26203
+    }
+  },
+  "test": {
+    "random_forest": {
+      "MAE": 0.43,
+      "RMSE": 1.075,
+      "R2": 0.8294,
+      "Rows": 26176
+    },
+    "persistence": {
+      "MAE": 0.667,
+      "RMSE": 1.674,
+      "R2": 0.5865,
+      "Rows": 26176
+    }
+  }
+}

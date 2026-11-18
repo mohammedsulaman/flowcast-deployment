@@ -1,0 +1,26 @@
+{
+  "project": "FlowCast",
+  "asset_count": 19,
+  "files": [
+    "models/traffic_volume_random_forest.joblib.gz",
+    "models/congestion_random_forest.joblib.gz",
+    "models/travel_time_random_forest.joblib.gz",
+    "data/deployment/flowcast_cleaned.csv",
+    "data/deployment/flowcast_train.csv",
+    "data/deployment/flowcast_validation.csv",
+    "data/deployment/flowcast_test.csv",
+    "reports/baseline_metrics.json",
+    "reports/congestion_metrics.json",
+    "reports/travel_time_metrics.json",
+    "reports/forecast_reliability.json",
+    "dashboard/app.py",
+    "dashboard/predictions.py",
+    "dashboard/reliability.py",
+    "dashboard/config.py",
+    "requirements.txt",
+    "runtime.txt",
+    ".streamlit/config.toml",
+    "dashboard/model_loader.py"
+  ],
+  "note": "Compressed models require an extraction/loading step before the existing dashboard can use them."
+}
